@@ -1,12 +1,27 @@
-import Home from "./home";
-
+import React, { useState } from 'react';
+import NavBar from './components/NavBar/NavBar';
+import Post from './components/Post/Post';
+import DisplayPost from './components/DisplayPost/';
+import LikeDislikeButton from "./components/LikeDislikeButton"
+import './App.css'
 
 function App() {
-  return <Home/>
 
+  const [entries, SetEntries] = useState([])
 
-     
-  
+  function addNewEntry(entry){
+    let tempEntries = [entry, ...entries];
+
+    SetEntries(tempEntries);
+  }
+
+  return (
+      <div>
+            <NavBar/>
+            <Post addNewEntryProperty={addNewEntry}/>      
+            <DisplayPost parentEntries={entries}/>
+      </div>
+  );
 }
 
 export default App;
