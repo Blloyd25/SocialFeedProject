@@ -1,0 +1,30 @@
+.mybutton{
+    color: lightcoral;
+    height: 3rem;
+    width: 5rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 6px;
+    border-radius: 15%;
+}
+.dislikebutton{
+    color: whitesmoke;
+    height: 3rem;
+    width: 5rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 6px;
+    border-radius: 15%;
+}
+.fas{
+      color: rgb(7, 7, 7);
+}
+.active{
+    background-color: lightgreen;
+}
+
+.inactive{
+    background-color: grey;
+}
