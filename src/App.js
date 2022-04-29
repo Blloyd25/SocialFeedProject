@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import NavBar from './components/NavBar/NavBar';
-import Post from './components/Post/Post';
-import DisplayPost from './components/DisplayPost/';
-import LikeDislikeButton from "./components/LikeDislikeButton"
+import Post from './components/post/post';
+import DisplayPost from './components/post/Displaypost';
 import './App.css'
 
 function App() {

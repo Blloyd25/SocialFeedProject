@@ -27,7 +27,7 @@ const Post = (props) => {
             <form onSubmit={handleSubmit}>
                 <label>Name:</label>
                 <input type='Name' value={name} onChange={(e) => setName(e.target.value)}/>
-                <label>Whats this?</label>
+                <label>What do u want to say??</label>
                 <input type='body' value={body} onChange={(e) => setBody(e.target.value)}/>
                 <button type='submit'>Submit</button>
                 

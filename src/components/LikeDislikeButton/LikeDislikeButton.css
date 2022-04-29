@@ -1,11 +1,11 @@
 .mybutton{
     color: lightcoral;
-    height: 3rem;
-    width: 5rem;
-    margin-left: 2rem;
+    height: 25rem;
+    width: 25rem;
+    margin-left: 12rem;
     text-decoration: none;
     display: inline-block;
-    font-size: 6px;
+    font-size: 12px;
     border-radius: 15%;
 }
 .dislikebutton{
